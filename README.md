@@ -1,2 +1,9 @@
-# Swedbank
-swedbank regression tests
+# Install
+```
+npm install
+```
+# Run
+
+```
+npm test
+```

@@ -1,0 +1,19 @@
+{
+  "name": "swedbank",
+  "version": "0.0.1",
+  "description": "selenium tests",
+  "main": "test/swedbank.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/swedbank.js --timeout 10000"
+  },
+  "author": "Korky",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}

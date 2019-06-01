@@ -4,7 +4,7 @@ const { expect } = require('chai')
 
 describe('Swedbank login', () => {
     const width = 1250, height = 1250;
-    const driver = new Builder().forBrowser('chrome').setChromeOptions(new chrome.Options().windowSize({ height: height, width: width })).build();
+    const driver = new Builder().forBrowser('chrome').setChromeOptions(new chrome.Options().windowSize({ height: height, width: width }).headless()).build();
     //const driver = new Builder().forBrowser('chrome').setChromeOptions(new chrome.Options().windowSize({ height: height, width: width }).headless()).build(); // to run this in headless mode
     const baseURL = 'https://www.swedbank.ee/';
     const mySwedAccount = '';

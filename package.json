@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha test/swedbank.js --timeout 10000"
+    "test": "mocha test/swedbank.js --timeout 100000"
   },
   "author": "Korky",
   "license": "ISC",
